@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: \index.html
-    destination: C:\inetpub\wwwroot
+    destination: C:\inetpub\wwwroot\%APPLICATION_NAME%\App_Data
 hooks:
   BeforeInstall:
     - location: \before-install.bat
