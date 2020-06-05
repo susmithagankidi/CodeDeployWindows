@@ -3,7 +3,6 @@ $item = "UAT_outside"
 $item
 $env:PATH
 $env:TMP
-refreshenv
 gci env:
 $env:test_env 
 $item
