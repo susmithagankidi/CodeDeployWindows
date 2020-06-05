@@ -4,6 +4,7 @@ $item
 $env:PATH
 $env:TMP
 refreshenv
+gci env:
 $env:test_env 
 $item
 Test-Path env:test_env
