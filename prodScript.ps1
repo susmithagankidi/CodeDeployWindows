@@ -1,4 +1,5 @@
 $env:test_env=[System.Environment]::GetEnvironmentVariable("test_env")
+$env:psmodulepath = $env:psmodulepath + ";"
 $item = "UAT_outside"
 $item
 $env:PATH
