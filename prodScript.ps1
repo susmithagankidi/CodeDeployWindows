@@ -3,6 +3,7 @@ $item = "UAT_outside"
 $item
 $env:PATH
 $env:TMP
+refreshenv
 $env:test_env 
 $item
 Test-Path env:test_env
