@@ -1,4 +1,4 @@
-$env:test_env=[System.Environment]::GetEnvironmentVariable("test_env")
+$env:test_env=[System.Environment]::GetEnvironmentVariable("PATH","test_env")
 $item = "UAT_outside"
 $item
 $env:PATH
