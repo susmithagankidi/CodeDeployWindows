@@ -8,7 +8,7 @@ hooks:
     - location: \before-install.bat
       timeout: 900
     - location: \StageArtifacts.ps1
-       timeout: 900
-   AfterInstall:
-     - location: \prodScript.ps1
-        timeout: 900
+      timeout: 900
+  AfterInstall:
+    - location: \prodScript.ps1
+      timeout: 900
