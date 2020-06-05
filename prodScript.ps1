@@ -1,12 +1,13 @@
-$env:new=[System.Environment]::GetEnvironmentVariable("test_env")
+$env:new=[System.Environment]::GetEnvironmentVariable("new")
 $env:psmodulepath = $env:psmodulepath + ";"
 $item = "UAT_outside"
 $item
 $env:PATH
 $env:TMP
 gci env:
-$env:new 
+$env:new
 $item
+whoami
 Test-Path env:new
 if (Test-Path env:new) { 
     $item = "echo "
