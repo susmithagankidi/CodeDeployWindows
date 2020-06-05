@@ -1,3 +1,4 @@
+$env:test_env
 if (Test-Path env:test_env) { 
     $item = "echo "
     $item=Get-Content -Path Env:EnvironmentType
