@@ -1,3 +1,4 @@
+$PROFILE.AllUsersAllHosts
 $item = "UAT_outside"
 $item
 $env:PATH
