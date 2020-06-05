@@ -6,7 +6,6 @@ $env:PATH
 $env:TMP
 gci env:
 $env:test_env 
-whoami
 $item
 Test-Path env:test_env
 if (Test-Path env:test_env) { 
