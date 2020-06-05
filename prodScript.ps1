@@ -1,4 +1,10 @@
-$env:test_env
+$item = "UAT_outside"
+$item
+$env:PATH
+$env:TMP
+$env:test_env 
+$item
+Test-Path env:test_env
 if (Test-Path env:test_env) { 
     $item = "echo "
     $item=Get-Content -Path Env:EnvironmentType
